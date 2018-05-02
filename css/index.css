@@ -1,0 +1,20 @@
+
+.margem-central{
+	width: 25%;
+	margin: 250px;
+	margin-left: 35%;
+	
+}
+.img-logo{
+	position:absolute;
+	width: 150px;
+	top:-120px;
+	
+
+}
+
+.formulario{
+	position: absolute;
+	width: 20%;
+	
+}
