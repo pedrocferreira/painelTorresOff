@@ -25,8 +25,8 @@ foreach($produtos as $mercado){
         <thead>
           <tr>
               <th>Nome</th>
-              <th>Vencimento</th>
               <th>Endereço</th>
+              <th>Vencimento</th>
           </tr>
         </thead>
 
@@ -37,8 +37,8 @@ foreach($produtos as $mercado){
             ?>
             <tr>
               <td><?= $mercado['nome']?> </td>
-              <td><?= $mercado['vencimento'] ?></td>
               <td><?= $mercado['endereco'] ?></td>
+              <td><?= $mercado['vencimento'] ?></td>
               <td><a href="remove-mercado.php ?id=<?= $mercado['id'] ?>" onclick="Materialize.toast('Mercado Removido', 4000)"> <i class="material-icons">clear</i> </a> </td>
               </tr>
               <?php

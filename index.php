@@ -4,6 +4,7 @@
 	<!--Materialize -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+  <script type="text/javascript" src="js/zuera.js"></script>
 	
 
 	<link rel="stylesheet" type="text/css" href="css/index.css">
@@ -51,7 +52,7 @@
       </div>
     </form>
   </div>
-<center> <a id="connect"class="waves-effect waves-light btn" >Connect</a></center>
+<center> <button onclick="click()"> <a id="connect"class="waves-effect waves-light btn" >Connect </a></button> </center>
 	
 
   </div><!------------>

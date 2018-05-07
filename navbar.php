@@ -20,6 +20,7 @@
 
 <nav class="nav-extended">
 	<center><span class="nav-title">Painel de Controle</span></center>
+  
 	
 
     <div class="nav-wrapper">
